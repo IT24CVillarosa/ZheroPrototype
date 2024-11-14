@@ -633,6 +633,32 @@ nav ul li a{
     background-color: transparent;
     transform: scale(1.1);
 }
+/* Customize Carousel Arrow Styles */
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent arrow color */
+    border-radius: 50%;
+}
+
+/* Hover Effect for Arrows */
+.carousel-control-prev-icon:hover, 
+.carousel-control-next-icon:hover {
+    background-color: rgb(242, 2, 2); /* Change color on hover (e.g., red) */
+}
+
+/* You can also style the text of the buttons */
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%; /* Vertically center the arrows */
+    transform: translateY(-50%);
+}
+
+/* Optional: Add custom padding for more space between content and arrows */
+.carousel-item {
+    padding: 20px;
+}
+
+
 
 
 
